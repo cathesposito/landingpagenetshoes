@@ -1,0 +1,155 @@
+body {
+  background-color: #5a2d82;
+  font-family: 'Fira Sans', sans-serif;
+  color: #fff;
+  max-height: 100vh;
+  margin: 0 auto;
+  max-width: 2000px;
+}
+
+h1{
+  margin: 0;
+  font-size: 3.2rem;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+  background-color: #370f53;
+  border-radius: 0.5em;
+  padding: 5px;
+}
+
+.nav-section{
+
+}
+
+.nav-section p{
+  background-color: #370f53;
+  margin-top: 0;
+  text-align: center;
+  padding: 5px 0;
+}
+
+#section-logo{
+  padding: 1em;
+}
+
+#section-navbar{
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  color: #888888;
+  background-color: #fff;
+  padding: 0.2em;
+}
+
+#section-navbar h3{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 12px;
+  letter-spacing: -.09px;
+  padding-left: 1em;
+}
+
+main{
+  background-color: #5a2d82;
+  background-image: url("images/background.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 43rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#section-info, #section-signup{
+  border: #370f53 solid;
+  border-radius: 1em;
+  padding: 1em 2em;
+  box-shadow: 0 6px 7px #888888;
+  border-width: thin;
+  width: 20rem;
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+#section-info{
+  margin-right: 3rem;
+}
+
+#section-info p{
+  padding: auto 1.5rem;
+  font-size: 1.3em;
+}
+
+#section-signup h3{
+  font-size: 12px;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+button{
+  color: #fff;
+  background-color: #370f53;
+  border-radius: 0.5em;
+  padding: 10px;
+  border: none;
+}
+
+footer{
+  background-color: #fff;
+  color: #8C8C8C;
+  text-align: center;
+}
+
+h6{
+  font-size: 1em;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+footer p{
+  font-size: 10px;
+  padding-bottom: 10px;
+  height: 100%;
+}
+
+@media screen and (max-width: 480px)  {
+  main{
+    display: flex;
+    flex-direction: column;
+  }
+
+  h1{
+    font-size: 2.2rem;
+  }
+
+  #section-info, #section-signup{
+    padding: 1em 2em;
+    width: 15rem;
+    height: 18rem;
+  }
+
+  #section-info{
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+
+  #section-info p{
+    padding: 1.5rem auto;
+    font-size: 1em;
+  }
+}
