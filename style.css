@@ -21,18 +21,21 @@ a{
 }
 
 .nav-section{
-
+  background-color: #370f53;
 }
 
 .nav-section p{
-  background-color: #370f53;
-  margin-top: 0;
+  margin: 0 auto;
   text-align: center;
-  padding: 5px 0;
+  padding: 8px 0;
+  font-size: 0.8em;
+  width: 65vw;
 }
 
 #section-logo{
-  padding: 1em;
+  margin: 0 auto;
+  padding: 1em 1em 0 1em;
+  width: 65vw;
 }
 
 #section-navbar{
