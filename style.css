@@ -12,12 +12,59 @@ h1{
   font-size: 3.2rem;
 }
 
+h6{
+  font-size: 1em;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
 a{
   text-decoration: none;
   color: #fff;
   background-color: #370f53;
   border-radius: 0.5em;
   padding: 5px;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+button{
+  color: #fff;
+  background-color: #370f53;
+  border-radius: 0.5em;
+  padding: 10px;
+  border: none;
+}
+
+main{
+  background-color: #5a2d82;
+  background-image: url("images/background.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 43rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+footer{
+  background-color: #fff;
+  color: #8C8C8C;
+  text-align: center;
+}
+
+footer p{
+  font-size: 10px;
+  padding-bottom: 10px;
+  height: 100%;
 }
 
 .nav-section{
@@ -38,7 +85,7 @@ a{
   width: 65vw;
 }
 
-#section-navbar{
+#section-mail{
   display: flex;
   flex-direction: row;
   margin: 0;
@@ -47,25 +94,11 @@ a{
   padding: 0.2em;
 }
 
-#section-navbar h3{
+#section-mail h3{
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 12px;
   letter-spacing: -.09px;
   padding-left: 1em;
-}
-
-main{
-  background-color: #5a2d82;
-  background-image: url("images/background.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 43rem;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
 }
 
 #section-info, #section-signup{
@@ -97,43 +130,11 @@ main{
   font-size: 12px;
 }
 
-input[type=text] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-}
-
-button{
-  color: #fff;
-  background-color: #370f53;
-  border-radius: 0.5em;
-  padding: 10px;
-  border: none;
-}
-
-footer{
-  background-color: #fff;
-  color: #8C8C8C;
-  text-align: center;
-}
-
-h6{
-  font-size: 1em;
-  margin: 0 auto;
-  padding-top: 10px;
-}
-
-footer p{
-  font-size: 10px;
-  padding-bottom: 10px;
-  height: 100%;
-}
-
 @media screen and (max-width: 480px)  {
   main{
     display: flex;
     flex-direction: column;
+    background-image: url("images/background-m.png");
   }
 
   h1{
